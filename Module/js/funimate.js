@@ -1,17 +1,1 @@
-/*
- * @name: Funimate Pro Premium Unlock
- * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
- * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
- * @date: 2026-05-09
- */
-
-var objc = JSON.parse($response.body);
-
-if (objc.user) {
-    objc.user.is_pro = true;
-    objc.user.pro_status = "active";
-    objc.user.pro_expires_at = "9999-01-09T02:00:00Z";
-    objc.user.subscription_type = "yearly";
-}
-
-$done({ body: JSON.stringify(objc) });
+(function(){return eval(atob('LyoNCiAqIEBuYW1lOiBGdW5pbWF0ZSBQcm8gUHJlbWl1bSBVbmxvY2sNCiAqIEBhdXRob3I6IE5ndXnhu4VuIE5n4buNYyBBbmggVMO6ICh6M3Jva2F6ZSkNCiAqIEBob21lcGFnZTogaHR0cHM6Ly9naXRodWIuY29tL3ozcm9rYXplL05ndXllbk5nb2NBbmhUdQ0KICogQGRhdGU6IDIwMjYtMDUtMDkNCiAqLw0KDQp2YXIgb2JqYyA9IEpTT04ucGFyc2UoJHJlc3BvbnNlLmJvZHkpOw0KDQppZiAob2JqYy51c2VyKSB7DQogICAgb2JqYy51c2VyLmlzX3BybyA9IHRydWU7DQogICAgb2JqYy51c2VyLnByb19zdGF0dXMgPSAiYWN0aXZlIjsNCiAgICBvYmpjLnVzZXIucHJvX2V4cGlyZXNfYXQgPSAiOTk5OS0wMS0wOVQwMjowMDowMFoiOw0KICAgIG9iamMudXNlci5zdWJzY3JpcHRpb25fdHlwZSA9ICJ5ZWFybHkiOw0KfQ0KDQokZG9uZSh7IGJvZHk6IEpTT04uc3RyaW5naWZ5KG9iamMpIH0pOw0K'))})();

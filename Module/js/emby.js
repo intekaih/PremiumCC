@@ -1,16 +1,1 @@
-/*
- * @name: Emby Premiere Unlock
- * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
- * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
- * @date: 2026-05-09
- */
-
-var objc = JSON.parse($response.body);
-
-objc = {
-    "cacheExpirationDays": 999,
-    "message": "Device is valid",
-    "resultCode": "GOOD"
-};
-
-$done({ body: JSON.stringify(objc) });
+(function(){return eval(atob('LyoNCiAqIEBuYW1lOiBFbWJ5IFByZW1pZXJlIFVubG9jaw0KICogQGF1dGhvcjogTmd1eeG7hW4gTmfhu41jIEFuaCBUw7ogKHozcm9rYXplKQ0KICogQGhvbWVwYWdlOiBodHRwczovL2dpdGh1Yi5jb20vejNyb2themUvTmd1eWVuTmdvY0FuaFR1DQogKiBAZGF0ZTogMjAyNi0wNS0wOQ0KICovDQoNCnZhciBvYmpjID0gSlNPTi5wYXJzZSgkcmVzcG9uc2UuYm9keSk7DQoNCm9iamMgPSB7DQogICAgImNhY2hlRXhwaXJhdGlvbkRheXMiOiA5OTksDQogICAgIm1lc3NhZ2UiOiAiRGV2aWNlIGlzIHZhbGlkIiwNCiAgICAicmVzdWx0Q29kZSI6ICJHT09EIg0KfTsNCg0KJGRvbmUoeyBib2R5OiBKU09OLnN0cmluZ2lmeShvYmpjKSB9KTsNCg=='))})();

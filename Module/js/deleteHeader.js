@@ -1,10 +1,1 @@
-/***********************************************
-> RevenueCat ETag Header Remover
-> Original: z3rokaze (V1.0.2)
-> Updated: Nguyễn Ngọc Anh Tú (z3rokaze)
-> Date: 2026-04-21
-***********************************************/
-
-const version = 'V1.0.2';
-
-function setHeaderValue(e,a,d){var r=a.toLowerCase();r in e?e[r]=d:e[a]=d}var modifiedHeaders=$request.headers;setHeaderValue(modifiedHeaders,"X-RevenueCat-ETag",""),$done({headers:modifiedHeaders});
+(function(){return eval(atob('LyoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqCj4gUmV2ZW51ZUNhdCBFVGFnIEhlYWRlciBSZW1vdmVyCj4gT3JpZ2luYWw6IHozcm9rYXplIChWMS4wLjIpCj4gVXBkYXRlZDogTmd1eeG7hW4gTmfhu41jIEFuaCBUw7ogKHozcm9rYXplKQo+IERhdGU6IDIwMjYtMDQtMjEKKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiovCgpjb25zdCB2ZXJzaW9uID0gJ1YxLjAuMic7CgpmdW5jdGlvbiBzZXRIZWFkZXJWYWx1ZShlLGEsZCl7dmFyIHI9YS50b0xvd2VyQ2FzZSgpO3IgaW4gZT9lW3JdPWQ6ZVthXT1kfXZhciBtb2RpZmllZEhlYWRlcnM9JHJlcXVlc3QuaGVhZGVycztzZXRIZWFkZXJWYWx1ZShtb2RpZmllZEhlYWRlcnMsIlgtUmV2ZW51ZUNhdC1FVGFnIiwiIiksJGRvbmUoe2hlYWRlcnM6bW9kaWZpZWRIZWFkZXJzfSk7Cg=='))})();
