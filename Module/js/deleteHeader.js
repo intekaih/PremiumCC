@@ -1,7 +1,7 @@
 /***********************************************
 > RevenueCat ETag Header Remover
 > Original: PremiumCC (V1.0.2)
-> Updated: Nguyễn Ngọc Anh Tú (PremiumCC)
+> Updated: PremiumCC
 > Date: 2026-04-21
 ***********************************************/
 

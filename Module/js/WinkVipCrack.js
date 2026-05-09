@@ -1,6 +1,6 @@
 /*
  * @name: Wink VIP Unlock
- * @author: Nguyễn Ngọc Anh Tú (PremiumCC)
+ * @author: PremiumCC
  * @homepage: https://github.com/intekaih/PremiumCC
  * @date: 2026-04-21
  */

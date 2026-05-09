@@ -1,6 +1,6 @@
 /*
  * @name: Lightroom Premium Unlock
- * @author: Nguyễn Ngọc Anh Tú (PremiumCC)
+ * @author: PremiumCC
  * @homepage: https://github.com/intekaih/PremiumCC
  * @date: 2026-05-09
  */
@@ -26,8 +26,8 @@ objc = {
     },
     "profile": {
         "email_verified": true,
-        "first_name": "Nguyễn Ngọc",
-        "last_name": "Anh Tú"
+        "first_name": "Premium",
+        "last_name": "CC"
     }
 };
 

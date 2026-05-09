@@ -2,7 +2,7 @@
 > RevenueCat Multi-App Premium Unlocker
 > Locket Gold + 车票票 VIP + Generic RC Apps
 > Original: PremiumCC (revenuecat_multi.js)
-> Updated: Nguyễn Ngọc Anh Tú (PremiumCC)
+> Updated: PremiumCC
 > Date: 2026-04-21
 ***********************************************/
 
