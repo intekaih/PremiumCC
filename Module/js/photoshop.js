@@ -1,7 +1,7 @@
 /*
  * @name: Photoshop Express Premium Unlock
- * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
- * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
+ * @author: Nguyễn Ngọc Anh Tú (PremiumCC)
+ * @homepage: https://github.com/intekaih/PremiumCC
  * @date: 2026-05-09
  */
 
@@ -18,7 +18,7 @@ objc = {
                         "productName": "PHOTOSHOP_EXPRESS_PREMIUM",
                         "status": "ACTIVE",
                         "store": "APPLE_APPSTORE",
-                        "contractId": "z3rokaze_premium_2024"
+                        "contractId": "PremiumCC_premium_2024"
                     }
                 ]
             }

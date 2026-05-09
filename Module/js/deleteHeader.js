@@ -1,7 +1,7 @@
 /***********************************************
 > RevenueCat ETag Header Remover
-> Original: z3rokaze (V1.0.2)
-> Updated: Nguyễn Ngọc Anh Tú (z3rokaze)
+> Original: PremiumCC (V1.0.2)
+> Updated: Nguyễn Ngọc Anh Tú (PremiumCC)
 > Date: 2026-04-21
 ***********************************************/
 

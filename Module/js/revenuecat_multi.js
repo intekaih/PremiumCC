@@ -1,8 +1,8 @@
 /***********************************************
 > RevenueCat Multi-App Premium Unlocker
 > Locket Gold + 车票票 VIP + Generic RC Apps
-> Original: z3rokaze (revenuecat_multi.js)
-> Updated: Nguyễn Ngọc Anh Tú (z3rokaze)
+> Original: PremiumCC (revenuecat_multi.js)
+> Updated: Nguyễn Ngọc Anh Tú (PremiumCC)
 > Date: 2026-04-21
 ***********************************************/
 
@@ -13,11 +13,11 @@ const mapping = {
 };
 
 // =========  Core Logic  ========= //
-// =========  @z3rokaze  ========= //
+// =========  @PremiumCC  ========= //
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
   obj = JSON.parse($response.body);
 obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
-var z3rokaze = {
+var PremiumCC = {
       auto_resume_date: null,
       display_name: "locket_1600_1y",
       is_sandbox: true,
@@ -47,8 +47,8 @@ var z3rokaze = {
 const match = Object.keys(mapping).find(e => ua.includes(e));
 if (match) {
   let [e, s] = mapping[match];
-  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = z3rokaze) : obj.subscriber.subscriptions["locket_1600_1y"] = z3rokaze, obj.subscriber.entitlements[e] = locketGold
-} else obj.subscriber.subscriptions["locket_1600_1y"] = z3rokaze, obj.subscriber.entitlements.pro = locketGold;
+  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = PremiumCC) : obj.subscriber.subscriptions["locket_1600_1y"] = PremiumCC, obj.subscriber.entitlements[e] = locketGold
+} else obj.subscriber.subscriptions["locket_1600_1y"] = PremiumCC, obj.subscriber.entitlements.pro = locketGold;
 $done({
   body: JSON.stringify(obj)
 });

@@ -1,7 +1,7 @@
 /*
  * @name: KineMaster Pro Unlock
- * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
- * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
+ * @author: Nguyễn Ngọc Anh Tú (PremiumCC)
+ * @homepage: https://github.com/intekaih/PremiumCC
  * @date: 2026-04-21
  */
 

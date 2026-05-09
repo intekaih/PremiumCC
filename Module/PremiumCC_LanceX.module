@@ -1,0 +1,154 @@
+#!name=💰 Anh Tú Premium - LanceX
+#!desc=30 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + Lightroom + Photoshop + Djay + Calm + Bussu + VSCO + Mojo + Widgetsmith + Headspace + Funimate + Reface + Unfold + HTTPBot + 1Blocker + Structured + Splice + Facetune + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store | v5.2.1 (2026-05-05)
+#!author=Nguyễn Ngọc Anh Tú
+#!homepage=https://github.com/intekaih/PremiumCC
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/81/cb/9081cbba-b7c4-63b5-1207-23ab9efbbe04/AppIcon-0-1x_U007emarketing-0-11-0-0-85-220-0.png/230x0w.webp
+#!system=ios
+
+[General]
+bypass-system = true
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local
+dns-server = system
+ipv6 = false
+force-http-engine-hosts = %APPEND% *youtube.com:443, *googlevideo.com:443
+
+[Rule]
+# Spotify Ads Block
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,REJECT
+DOMAIN-SUFFIX,audio4-ak-spotify-com.akamaized.net,REJECT
+DOMAIN-SUFFIX,heads-ak-spotify-com.akamaized.net,REJECT
+DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,REJECT
+DOMAIN,spclient.wg.spotify.com,DIRECT
+DOMAIN-KEYWORD,spotify-ads,REJECT
+# YouTube Ads Block (Synced: Maasea Enhance)
+AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
+AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
+DOMAIN,www.googleadservices.com,REJECT
+
+[Script]
+# ═══════════════════════════════════════
+# 📦 Sub-Store (NMS)
+# ═══════════════════════════════════════
+Sub-Store Core=type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120,engine=jsc
+Sub-Store Simple=type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js,requires-body=true,engine=jsc
+Sub-Store Sync=type=cron,cronexp=0 0 * * *,wake-system=1,timeout=120,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
+
+# ═══════════════════════════════════════
+# 📺 YouTube Premium (NMS Method)
+# ═══════════════════════════════════════
+youtube-request = type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/youtube.response.js
+
+youtube-response = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,timeout=30,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/youtube.response.js,argument={"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}
+
+# ═══════════════════════════════════════
+# 🎵 Spotify Premium - PremiumCC (2026-05-09)
+# ═══════════════════════════════════════
+spotify-json = type=http-request,pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/,requires-body=0,timeout=10,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/spotify-json.js
+
+spotify-proto = type=http-response,pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,timeout=10,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/spotify-proto.js,script-update-interval=0
+
+# ═══════════════════════════════════════
+# 🎧 SoundCloud Go+ (NMS)
+# ═══════════════════════════════════════
+soundcloud-response = type=http-response,pattern=^https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,max-size=262144,timeout=15,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/SoundCloudGoPlus.js
+
+# ═══════════════════════════════════════
+# 🎨 PicsArt Gold (NMS)
+# ═══════════════════════════════════════
+picsart-response = type=http-request,pattern=^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/PicsArt.js,requires-body=true,timeout=60,engine=jsc
+
+# ═══════════════════════════════════════
+# 🎬 Emby Premiere - PremiumCC (2026-05-09)
+# ═══════════════════════════════════════
+emby-response = type=http-response,pattern=^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/emby.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# ═══════════════════════════════════════
+# 🎬 KineMaster Pro (NMS)
+# ═══════════════════════════════════════
+kinemaster-response = type=http-response,pattern=^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$,requires-body=1,max-size=0,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/Kinemaster.js
+
+# 🎨 Lightroom - PremiumCC (2026-05-09)
+lightroom-response = type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/lightroom.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 🎨 Photoshop Express - PremiumCC (2026-05-09)
+photoshop-response = type=http-response,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/photoshop.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 🎵 Djay Pro - PremiumCC (2026-05-09)
+djay-response = type=http-response,pattern=^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/djay.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 🧘 Calm - PremiumCC (2026-05-09)
+calm-response = type=http-response,pattern=^https:\/\/api\.calm\.com\/me$,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/calm.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 📚 Bussu - PremiumCC (2026-05-09)
+bussu-response = type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/bussu.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 📸 VSCO X - PremiumCC (2026-05-09)
+vsco-response = type=http-response,pattern=^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/vsco.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# ✨ Mojo Pro - PremiumCC (2026-05-09)
+mojo-response = type=http-response,pattern=^https:\/\/api\.mojo-app\.com\/v\d\/subscription,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/mojo.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 📱 Widgetsmith - PremiumCC (2026-05-09)
+widgetsmith-response = type=http-response,pattern=^https:\/\/widgetsmith\.com\/api\/subscription,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/widgetsmith.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 🧘 Headspace Premium - PremiumCC (2026-05-09)
+headspace-response = type=http-response,pattern=^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/headspace.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 🎬 Funimate Pro - PremiumCC (2026-05-09)
+funimate-response = type=http-response,pattern=^https:\/\/api\.funimate\.com\/users\/me,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/funimate.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 🎭 Reface - PremiumCC (2026-05-09)
+reface-response = type=http-response,pattern=^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/reface.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# 📱 Unfold - PremiumCC (2026-05-09)
+unfold-response = type=http-response,pattern=^https:\/\/api\.unfold\.app\/v1\/ios\/receipts,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/unfold.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+
+# ═══════════════════════════════════════
+# 🎬 AlightMotion Pro (NMS)
+# ═══════════════════════════════════════
+alightmotion-response = type=http-response,pattern=^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses,requires-body=true,max-size=131072,timeout=10,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/AlightMotion.js
+
+# 💄 Wink VIP (NMS)
+wink-response = type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/WinkVipCrack.js
+
+# 📞 Truecaller Premium (NMS)
+truecaller-response = type=http-response,pattern=^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple),requires-body=1,max-size=0,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/TrueCaller.js
+
+# 📄 CamScanner Premium (NMS)
+camscanner-response = type=http-response,pattern=https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_prop,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/camScanner.js
+
+# 💄 BeautyPlus Premium (NMS)
+beautyplus-response = type=http-response,pattern=^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance),requires-body=true,max-size=-1,timeout=60,engine=jsc,script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/BeautyPlus.js
+
+# ═══════════════════════════════════════
+# 🔐 RevenueCat Multi-App - PremiumCC (v5.2)
+# Locket Gold + 车票票 VIP
+# ═══════════════════════════════════════
+revenuecat-multi-response = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/revenuecat_multi.js, requires-body=true, max-size=-1, timeout=60, engine=jsc
+
+revenuecat-multi-header = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/deleteHeader.js, timeout=60, engine=jsc
+
+[Url Rewrite]
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad reject-200
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads reject-200
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) reject-200
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext reject-200
+# YouTube ctier rewrite (NMS)
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+
+
+[Map Local]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data-type=text data="" status-code=200
+
+[Header Rewrite]
+^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) header-del x-revenuecat-etag
+^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) header-del X-RevenueCat-ETag
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(user-customization-service\/v1\/customize|bootstrap\/v1\/bootstrap)$ header-del if-none-match
+
+[MITM]
+hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.picsart.c*, api.meiease.c*, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.mojo-app.com, widgetsmith.com, api.funimate.com, api.reface.video, api.unfold.app, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, sub.store
+enable = true

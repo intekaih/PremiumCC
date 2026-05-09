@@ -47,26 +47,26 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS-0A84FF?style=for-the-badge&logo=apple&logoColor=white"/>
   <img src="https://img.shields.io/badge/Version-8.0.0-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
-  <img src="https://img.shields.io/github/license/z3rokaze/NguyenNgocAnhTu?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=50C878"/>
+  <img src="https://img.shields.io/github/license/intekaih/PremiumCC?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=50C878"/>
   <img src="https://img.shields.io/badge/Status-Active-FFD700?style=for-the-badge&logo=statuspage&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/z3rokaze/NguyenNgocAnhTu?style=social"/>
-  <img src="https://img.shields.io/github/forks/z3rokaze/NguyenNgocAnhTu?style=social"/>
-  <img src="https://img.shields.io/github/watchers/z3rokaze/NguyenNgocAnhTu?style=social"/>
+  <img src="https://img.shields.io/github/stars/intekaih/PremiumCC?style=social"/>
+  <img src="https://img.shields.io/github/forks/intekaih/PremiumCC?style=social"/>
+  <img src="https://img.shields.io/github/watchers/intekaih/PremiumCC?style=social"/>
   <br><br>
-  <img src="https://komarev.com/ghpvc/?username=z3rokaze-nguyenngocanhtu&label=Profile%20Views&color=0084FF&style=flat-square&icon=github" alt="Visitors"/>
+  <img src="https://komarev.com/ghpvc/?username=PremiumCC-nguyenngocanhtu&label=Profile%20Views&color=0084FF&style=flat-square&icon=github" alt="Visitors"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
-    <img src="https://img.shields.io/github/issues/z3rokaze/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=white&labelColor=32383E&color=F39C12"/>
+  <a href="https://github.com/intekaih/PremiumCC/issues">
+    <img src="https://img.shields.io/github/issues/intekaih/PremiumCC?style=for-the-badge&logo=github&logoColor=white&labelColor=32383E&color=F39C12"/>
   </a>
-  <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+  <a href="https://github.com/intekaih/PremiumCC/discussions">
     <img src="https://img.shields.io/badge/Discussions-Active-7F52FF?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
+  <a href="https://www.facebook.com/PremiumCC.VN">
     <img src="https://img.shields.io/badge/Facebook-Community-0084FF?style=for-the-badge&logo=facebook&logoColor=white"/>
   </a>
 </p>
@@ -495,12 +495,12 @@ Performance Metrics
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Surge.sgmodule
 ```
 
 **Tính năng v8.0.0**
 - ✅ 20+ Apps Premium unlocked
-- ✅ Tất cả scripts từ z3rokaze
+- ✅ Tất cả scripts từ PremiumCC
 - ✅ Tối ưu hiệu suất cao
 - ✅ Sub-Store Sync tự động
 
@@ -533,12 +533,12 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Premium.module
 ```
 
 **Tính năng v8.0.0**
 - ✅ 20+ Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes...
-- ✅ Tất cả scripts tối ưu từ z3rokaze
+- ✅ Tất cả scripts tối ưu từ PremiumCC
 - ✅ Giữ YouTube (ekaznyra) & Locket Gold
 - ✅ Sub-Store Sync tự động mỗi ngày
 
@@ -573,7 +573,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_LanceX.module
 ```
 
 **Tính năng v8.0.0**
@@ -613,7 +613,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Loon.plugin
 ```
 
 **Tính năng v8.0.0**
@@ -653,7 +653,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_QuantumultX.snippet
 ```
 
 **Tính năng v8.0.0**
@@ -695,7 +695,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Stash.stoverride
 ```
 
 **Tính năng v8.0.0**
@@ -760,7 +760,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ 🍎 iTunes Premium — App purchases unlock
 
 **🔄 Cập nhật toàn diện Scripts**
-- ✅ Thay thế tất cả scripts từ bên thứ 3 → z3rokaze
+- ✅ Thay thế tất cả scripts từ bên thứ 3 → PremiumCC
 - ✅ Tạo mới 18 file JS với credits đầy đủ
 - ✅ Tối ưu hóa Spotify (spotify-json.js + spotify-proto.js)
 - ✅ Cập nhật Lightroom, Photoshop, Emby, Calm, Headspace
@@ -1035,7 +1035,7 @@ App → Configuration → Modules
 <h3>📨 Live Chat</h3>
 <sub>⭐ Response: < 1 hour</sub>
 <br><br>
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
+<a href="https://www.facebook.com/PremiumCC.VN">
 <img src="https://img.shields.io/badge/Chat_on_Messenger-0084FF?style=for-the-badge&logo=messenger&logoColor=white"/>
 </a>
 </td>
@@ -1045,7 +1045,7 @@ App → Configuration → Modules
 <h3>🔧 Bug Reports</h3>
 <sub>🛡️ Technical issues only</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/intekaih/PremiumCC/issues">
 <img src="https://img.shields.io/badge/Report_Issue-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -1055,7 +1055,7 @@ App → Configuration → Modules
 <h3>💬 Community</h3>
 <sub>🚀 Questions & ideas</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/intekaih/PremiumCC/discussions">
 <img src="https://img.shields.io/badge/Join_Discussion-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -1290,7 +1290,7 @@ Choose the right module for your proxy app:
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Surge.sgmodule
 ```
 
 **Steps**
@@ -1320,7 +1320,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Premium.module
 ```
 
 **Steps**
@@ -1352,7 +1352,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_LanceX.module
 ```
 
 **Steps**
@@ -1384,7 +1384,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Loon.plugin
 ```
 
 **Steps**
@@ -1416,7 +1416,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_QuantumultX.snippet
 ```
 
 **Steps**
@@ -1450,7 +1450,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Stash.stoverride
 ```
 
 **Steps**
@@ -1711,7 +1711,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <h3>📨 Live Chat</h3>
 <sub>⭐ Response: < 1 hour</sub>
 <br><br>
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
+<a href="https://www.facebook.com/PremiumCC.VN">
 <img src="https://img.shields.io/badge/Chat_on_Messenger-0084FF?style=for-the-badge&logo=messenger&logoColor=white"/>
 </a>
 </td>
@@ -1721,7 +1721,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <h3>🔧 Bug Reports</h3>
 <sub>🛡️ Technical issues only</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/intekaih/PremiumCC/issues">
 <img src="https://img.shields.io/badge/Report_Issue-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -1731,7 +1731,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <h3>💬 Community</h3>
 <sub>🚀 Questions & ideas</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/intekaih/PremiumCC/discussions">
 <img src="https://img.shields.io/badge/Join_Discussion-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -1966,7 +1966,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Surge.sgmodule
 ```
 
 **手順**
@@ -1996,7 +1996,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Premium.module
 ```
 
 **手順**
@@ -2028,7 +2028,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_LanceX.module
 ```
 
 **手順**
@@ -2060,7 +2060,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Loon.plugin
 ```
 
 **手順**
@@ -2092,7 +2092,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_QuantumultX.snippet
 ```
 
 **手順**
@@ -2126,7 +2126,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
+https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/PremiumCC_Stash.stoverride
 ```
 
 **手順**
@@ -2355,7 +2355,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <h3>📨 ライブチャット</h3>
 <sub>⭐ 応答: < 1時間</sub>
 <br><br>
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
+<a href="https://www.facebook.com/PremiumCC.VN">
 <img src="https://img.shields.io/badge/Messengerでチャット-0084FF?style=for-the-badge&logo=messenger&logoColor=white"/>
 </a>
 </td>
@@ -2365,7 +2365,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <h3>🔧 バグ報告</h3>
 <sub>🛡️ 技術的な問題のみ</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/intekaih/PremiumCC/issues">
 <img src="https://img.shields.io/badge/Issueを報告-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -2375,7 +2375,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <h3>💬 コミュニティ</h3>
 <sub>🚀 質問とアイデア</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/intekaih/PremiumCC/discussions">
 <img src="https://img.shields.io/badge/Discussionに参加-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -2461,7 +2461,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <p align="center">
   <sub>
     Copyright © 2025 
-    <a href="https://github.com/z3rokaze">Nguyễn Ngọc Anh Tú</a> 
+    <a href="https://github.com/PremiumCC">Nguyễn Ngọc Anh Tú</a> 
     • All Rights Reserved
   </sub>
 </p>
@@ -2478,7 +2478,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/intekaih/PremiumCC/issues">
 <img src="https://img.icons8.com/fluency/96/bug.png" width="64"/>
 <br><br>
 <b>Report Bug</b>
@@ -2487,7 +2487,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/intekaih/PremiumCC/discussions">
 <img src="https://img.icons8.com/fluency/96/chat.png" width="64"/>
 <br><br>
 <b>Discussions</b>
@@ -2496,7 +2496,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
+<a href="https://www.facebook.com/PremiumCC.VN">
 <img src="https://img.icons8.com/fluency/96/facebook.png" width="64"/>
 <br><br>
 <b>Facebook</b>
@@ -2531,19 +2531,19 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <!-- Contributors -->
 <h3>👥 Contributors / Người đóng góp</h3>
 <p align="center">
-  <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=z3rokaze/NguyenNgocAnhTu" alt="Contributors" />
+  <a href="https://github.com/intekaih/PremiumCC/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=intekaih/PremiumCC" alt="Contributors" />
   </a>
 </p>
 
 <!-- Star History -->
 <h3>📈 Growth / Tăng trưởng (Star History)</h3>
 <p align="center">
-  <a href="https://star-history.com/#z3rokaze/NguyenNgocAnhTu&Date">
+  <a href="https://star-history.com/#intekaih/PremiumCC&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=z3rokaze/NguyenNgocAnhTu&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=z3rokaze/NguyenNgocAnhTu&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=z3rokaze/NguyenNgocAnhTu&type=Date" width="80%"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=intekaih/PremiumCC&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=intekaih/PremiumCC&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=intekaih/PremiumCC&type=Date" width="80%"/>
     </picture>
   </a>
 </p>

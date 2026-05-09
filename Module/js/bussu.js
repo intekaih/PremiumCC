@@ -1,7 +1,7 @@
 /*
  * @name: Busuu Premium Unlock
- * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
- * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
+ * @author: Nguyễn Ngọc Anh Tú (PremiumCC)
+ * @homepage: https://github.com/intekaih/PremiumCC
  * @date: 2026-05-09
  */
 
@@ -9,8 +9,8 @@ var objc = JSON.parse($response.body);
 
 objc = {
     "user": {
-        "id": "z3rokaze_premium",
-        "email": "premium@z3rokaze.com",
+        "id": "PremiumCC_premium",
+        "email": "premium@PremiumCC.com",
         "premium": true,
         "premium_until": "9999-01-09T02:00:00Z",
         "subscription_type": "premium_plus",

@@ -1,7 +1,7 @@
 /*
  * @name: VSCO X Premium Unlock
- * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
- * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
+ * @author: Nguyễn Ngọc Anh Tú (PremiumCC)
+ * @homepage: https://github.com/intekaih/PremiumCC
  * @date: 2026-05-09
  */
 
@@ -9,7 +9,7 @@ var objc = JSON.parse($response.body);
 
 objc = {
     "user_subscription": {
-        "user_id": "z3rokaze_premium",
+        "user_id": "PremiumCC_premium",
         "subscription_code": "VSCO_MEMBERSHIP",
         "expires_on_sec": 32662137600,
         "is_active": true,

@@ -1,7 +1,7 @@
 /*
  * @name: Spotify Premium JSON Handler
- * @author: Nguyễn Ngọc Anh Tú (z3rokaze) - Based on app2smile
- * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
+ * @author: Nguyễn Ngọc Anh Tú (PremiumCC) - Based on app2smile
+ * @homepage: https://github.com/intekaih/PremiumCC
  * @date: 2026-05-09
  */
 

@@ -1,7 +1,7 @@
 name: ⚡ Anh Tú Premium - Stash
 desc: 30 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + Lightroom + Photoshop + Djay + Calm + Bussu + VSCO + Mojo + Widgetsmith + Headspace + Funimate + Reface + Unfold + HTTPBot + 1Blocker + Structured + Splice + Facetune + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store | v5.2.1 (2026-05-05)
 author: Nguyễn Ngọc Anh Tú
-homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
+homepage: https://github.com/intekaih/PremiumCC
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 
 rules:
@@ -68,7 +68,7 @@ http:
       binary-mode: true
       argument: '{"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}'
     # ═══════════════════════════════════════
-    # 🎵 Spotify Premium - z3rokaze (2026-05-09)
+    # 🎵 Spotify Premium - PremiumCC (2026-05-09)
     # ═══════════════════════════════════════
     - match: ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
       name: sp-json
@@ -100,7 +100,7 @@ http:
       require-body: true
       timeout: 60
     # ═══════════════════════════════════════
-    # 🎬 Emby Premiere - z3rokaze (2026-05-09)
+    # 🎬 Emby Premiere - PremiumCC (2026-05-09)
     # ═══════════════════════════════════════
     - match: ^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice
       name: emby-res
@@ -117,84 +117,84 @@ http:
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎨 Lightroom - z3rokaze (2026-05-09)
+    # 🎨 Lightroom - PremiumCC (2026-05-09)
     - match: ^https:\/\/photos\.adobe\.io\/v2\/accounts
       name: lr-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎵 Djay - z3rokaze (2026-05-09)
+    # 🎵 Djay - PremiumCC (2026-05-09)
     - match: ^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt
       name: dj-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🧘 Calm - z3rokaze (2026-05-09)
+    # 🧘 Calm - PremiumCC (2026-05-09)
     - match: ^https:\/\/api\.calm\.com\/me$
       name: calm-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📚 Bussu - z3rokaze (2026-05-09)
+    # 📚 Bussu - PremiumCC (2026-05-09)
     - match: ^https:\/\/api\.busuu\.com\/users\/me
       name: bussu-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📸 VSCO X - z3rokaze (2026-05-09)
+    # 📸 VSCO X - PremiumCC (2026-05-09)
     - match: ^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions
       name: vsco-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ✨ Mojo Pro - z3rokaze (2026-05-09)
+    # ✨ Mojo Pro - PremiumCC (2026-05-09)
     - match: ^https:\/\/api\.mojo-app\.com\/v\d\/subscription
       name: mojo-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📱 Widgetsmith Premium - z3rokaze (2026-05-09)
+    # 📱 Widgetsmith Premium - PremiumCC (2026-05-09)
     - match: ^https:\/\/widgetsmith\.com\/api\/subscription
       name: ws-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🧘 Headspace Premium - z3rokaze (2026-05-09)
+    # 🧘 Headspace Premium - PremiumCC (2026-05-09)
     - match: ^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions
       name: hs-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎬 Funimate Pro - z3rokaze (2026-05-09)
+    # 🎬 Funimate Pro - PremiumCC (2026-05-09)
     - match: ^https:\/\/api\.funimate\.com\/users\/me
       name: fun-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎨 Photoshop Express - z3rokaze (2026-05-09)
+    # 🎨 Photoshop Express - PremiumCC (2026-05-09)
     - match: ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile
       name: ps-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎭 Reface Premium - z3rokaze (2026-05-09)
+    # 🎭 Reface Premium - PremiumCC (2026-05-09)
     - match: ^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription
       name: rf-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📱 Unfold Premium - z3rokaze (2026-05-09)
+    # 📱 Unfold Premium - PremiumCC (2026-05-09)
     - match: ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts
       name: uf-res
       type: response
@@ -237,7 +237,7 @@ http:
       timeout: 60
       max-size: -1
     # ═══════════════════════════════════════
-    # 🔐 RevenueCat Multi-App - z3rokaze (v5.2)
+    # 🔐 RevenueCat Multi-App - PremiumCC (v5.2)
     # Locket Gold + 车票票 VIP
     # ═══════════════════════════════════════
     - match: ^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$)
@@ -254,80 +254,80 @@ http:
 
 script-providers:
   yt-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/youtube.response.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/youtube.response.js
     interval: 86400
   sp-json:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-json.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/spotify-json.js
     interval: 86400
   sp-proto:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-proto.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/spotify-proto.js
     interval: 86400
   sc-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/SoundCloudGoPlus.js
     interval: 86400
   pa-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/PicsArt.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/PicsArt.js
     interval: 86400
   rc-multi-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/revenuecat_multi.js
     interval: 86400
   rc-multi-hdr:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/deleteHeader.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/deleteHeader.js
     interval: 86400
   emby-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/emby.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/emby.js
     interval: 86400
   km-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/Kinemaster.js
     interval: 86400
   lr-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/lightroom.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/lightroom.js
     interval: 86400
   dj-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/djay.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/djay.js
     interval: 86400
   calm-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/calm.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/calm.js
     interval: 86400
   bussu-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/bussu.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/bussu.js
     interval: 86400
   vsco-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/vsco.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/vsco.js
     interval: 86400
   mojo-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/mojo.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/mojo.js
     interval: 86400
   ws-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/widgetsmith.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/widgetsmith.js
     interval: 86400
   hs-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/headspace.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/headspace.js
     interval: 86400
   fun-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/funimate.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/funimate.js
     interval: 86400
   ps-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/photoshop.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/photoshop.js
     interval: 86400
   rf-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/reface.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/reface.js
     interval: 86400
   uf-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/unfold.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/unfold.js
     interval: 86400
   am-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/AlightMotion.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/AlightMotion.js
     interval: 86400
   wink-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/WinkVipCrack.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/WinkVipCrack.js
     interval: 86400
   tc-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/TrueCaller.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/TrueCaller.js
     interval: 86400
   cs-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/camScanner.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/camScanner.js
     interval: 86400
   bp-res:
-    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
+    url: https://raw.githubusercontent.com/intekaih/PremiumCC/main/Module/js/BeautyPlus.js
     interval: 86400
