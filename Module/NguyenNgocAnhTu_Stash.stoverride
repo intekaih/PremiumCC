@@ -68,8 +68,7 @@ http:
       binary-mode: true
       argument: '{"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}'
     # ═══════════════════════════════════════
-    # 🎵 Spotify Premium - app2smile
-    # Synced: spotify.module 2025.06.27
+    # 🎵 Spotify Premium - z3rokaze (2026-05-09)
     # ═══════════════════════════════════════
     - match: ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
       name: sp-json
@@ -101,7 +100,7 @@ http:
       require-body: true
       timeout: 60
     # ═══════════════════════════════════════
-    # 🎬 Emby Premiere - chavyleung
+    # 🎬 Emby Premiere - z3rokaze (2026-05-09)
     # ═══════════════════════════════════════
     - match: ^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice
       name: emby-res
@@ -118,84 +117,84 @@ http:
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎨 Lightroom - iSteal-it
+    # 🎨 Lightroom - z3rokaze (2026-05-09)
     - match: ^https:\/\/photos\.adobe\.io\/v2\/accounts
       name: lr-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎵 Djay - iSteal-it
+    # 🎵 Djay - z3rokaze (2026-05-09)
     - match: ^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt
       name: dj-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🧘 Calm - iSteal-it
+    # 🧘 Calm - z3rokaze (2026-05-09)
     - match: ^https:\/\/api\.calm\.com\/me$
       name: calm-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📚 Bussu - iSteal-it
+    # 📚 Bussu - z3rokaze (2026-05-09)
     - match: ^https:\/\/api\.busuu\.com\/users\/me
       name: bussu-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📸 VSCO X - iSteal-it
+    # 📸 VSCO X - z3rokaze (2026-05-09)
     - match: ^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions
       name: vsco-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ✨ Mojo Pro - iSteal-it
+    # ✨ Mojo Pro - z3rokaze (2026-05-09)
     - match: ^https:\/\/api\.mojo-app\.com\/v\d\/subscription
       name: mojo-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📱 Widgetsmith Premium - iSteal-it
+    # 📱 Widgetsmith Premium - z3rokaze (2026-05-09)
     - match: ^https:\/\/widgetsmith\.com\/api\/subscription
       name: ws-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🧘 Headspace Premium - iSteal-it
+    # 🧘 Headspace Premium - z3rokaze (2026-05-09)
     - match: ^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions
       name: hs-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎬 Funimate Pro - iSteal-it
+    # 🎬 Funimate Pro - z3rokaze (2026-05-09)
     - match: ^https:\/\/api\.funimate\.com\/users\/me
       name: fun-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎨 Photoshop Express - iSteal-it
+    # 🎨 Photoshop Express - z3rokaze (2026-05-09)
     - match: ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile
       name: ps-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🎭 Reface Premium - iSteal-it
+    # 🎭 Reface Premium - z3rokaze (2026-05-09)
     - match: ^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription
       name: rf-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # 📱 Unfold Premium - iSteal-it
+    # 📱 Unfold Premium - z3rokaze (2026-05-09)
     - match: ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts
       name: uf-res
       type: response
@@ -258,10 +257,10 @@ script-providers:
     url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/youtube.response.js
     interval: 86400
   sp-json:
-    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-json.js
     interval: 86400
   sp-proto:
-    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-proto.js
     interval: 86400
   sc-res:
     url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
@@ -276,46 +275,46 @@ script-providers:
     url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/deleteHeader.js
     interval: 86400
   emby-res:
-    url: https://raw.githubusercontent.com/chavyleung/scripts/master/emby/emby.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/emby.js
     interval: 86400
   km-res:
     url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
     interval: 86400
   lr-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/Lightroom.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/lightroom.js
     interval: 86400
   dj-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/djay.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/djay.js
     interval: 86400
   calm-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/calm.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/calm.js
     interval: 86400
   bussu-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/bussu.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/bussu.js
     interval: 86400
   vsco-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/vsco.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/vsco.js
     interval: 86400
   mojo-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/mojo.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/mojo.js
     interval: 86400
   ws-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/widgetsmith.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/widgetsmith.js
     interval: 86400
   hs-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/headspace.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/headspace.js
     interval: 86400
   fun-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/Funimate.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/funimate.js
     interval: 86400
   ps-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/Photoshop.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/photoshop.js
     interval: 86400
   rf-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/reface.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/reface.js
     interval: 86400
   uf-res:
-    url: https://raw.githubusercontent.com/iSteal-it/script/main/unfoldtest.json
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/unfold.js
     interval: 86400
   am-res:
     url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/AlightMotion.js

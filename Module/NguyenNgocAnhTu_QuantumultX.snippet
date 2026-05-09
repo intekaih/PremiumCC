@@ -35,11 +35,10 @@ host-keyword, spotify-ads, reject
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/youtube.response.js
 
 # ═══════════════════════════════════════
-# 🎵 Spotify Premium - app2smile
-# Synced: spotify.module 2025.06.27
+# 🎵 Spotify Premium - z3rokaze (2026-05-09)
 # ═══════════════════════════════════════
-^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
-^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-json.js
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-proto.js
 
 # ═══════════════════════════════════════
 # 🎧 SoundCloud Go+ (NMS)
@@ -52,50 +51,50 @@ host-keyword, spotify-ads, reject
 ^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases url script-request-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/PicsArt.js
 
 # ═══════════════════════════════════════
-# 🎬 Emby Premiere - chavyleung
+# 🎬 Emby Premiere - z3rokaze (2026-05-09)
 # ═══════════════════════════════════════
-^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/chavyleung/scripts/master/emby/emby.js
+^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/emby.js
 
 # ═══════════════════════════════════════
 # 🎬 KineMaster Pro (NMS)
 # ═══════════════════════════════════════
 ^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
 
-# 🎨 Lightroom - iSteal-it
-^https:\/\/photos\.adobe\.io\/v2\/accounts url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/Lightroom.json
+# 🎨 Lightroom - z3rokaze (2026-05-09)
+^https:\/\/photos\.adobe\.io\/v2\/accounts url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/lightroom.js
 
-# 🎨 Photoshop Express - iSteal-it
-^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/Photoshop.json
+# 🎨 Photoshop Express - z3rokaze (2026-05-09)
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/photoshop.js
 
-# 🎵 Djay Pro - iSteal-it
-^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/djay.json
+# 🎵 Djay Pro - z3rokaze (2026-05-09)
+^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/djay.js
 
-# 🧘 Calm - iSteal-it
-^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/calm.json
+# 🧘 Calm - z3rokaze (2026-05-09)
+^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/calm.js
 
-# 📚 Bussu - iSteal-it
-^https:\/\/api\.busuu\.com\/users\/me url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/bussu.json
+# 📚 Bussu - z3rokaze (2026-05-09)
+^https:\/\/api\.busuu\.com\/users\/me url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/bussu.js
 
-# 📸 VSCO X - iSteal-it
-^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/vsco.json
+# 📸 VSCO X - z3rokaze (2026-05-09)
+^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/vsco.js
 
-# ✨ Mojo Pro - iSteal-it
-^https:\/\/api\.mojo-app\.com\/v\d\/subscription url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/mojo.json
+# ✨ Mojo Pro - z3rokaze (2026-05-09)
+^https:\/\/api\.mojo-app\.com\/v\d\/subscription url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/mojo.js
 
-# 📱 Widgetsmith Premium - iSteal-it
-^https:\/\/widgetsmith\.com\/api\/subscription url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/widgetsmith.json
+# 📱 Widgetsmith Premium - z3rokaze (2026-05-09)
+^https:\/\/widgetsmith\.com\/api\/subscription url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/widgetsmith.js
 
-# 🧘 Headspace Premium - iSteal-it
-^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/headspace.json
+# 🧘 Headspace Premium - z3rokaze (2026-05-09)
+^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/headspace.js
 
-# 🎬 Funimate Pro - iSteal-it
-^https:\/\/api\.funimate\.com\/users\/me url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/Funimate.json
+# 🎬 Funimate Pro - z3rokaze (2026-05-09)
+^https:\/\/api\.funimate\.com\/users\/me url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/funimate.js
 
-# 🎭 Reface Premium - iSteal-it
-^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/reface.json
+# 🎭 Reface Premium - z3rokaze (2026-05-09)
+^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/reface.js
 
-# 📱 Unfold Premium - iSteal-it
-^https:\/\/api\.unfold\.app\/v1\/ios\/receipts url script-response-body https://raw.githubusercontent.com/iSteal-it/script/main/unfoldtest.json
+# 📱 Unfold Premium - z3rokaze (2026-05-09)
+^https:\/\/api\.unfold\.app\/v1\/ios\/receipts url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/unfold.js
 
 # ═══════════════════════════════════════
 # 🎬 AlightMotion Pro (NMS)

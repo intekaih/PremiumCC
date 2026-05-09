@@ -2,11 +2,11 @@
  * @name: PicsArt Gold Unlock
  * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
  * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
- * @date: 2026-04-21
+ * @date: 2026-05-09
  */
 
 let objc = {
-  "status": "success",
+    "status": "success",
     "response": [
         {
             "status": "SUBSCRIPTION_RENEWED",
@@ -40,4 +40,21 @@ let objc = {
         }
     ]
 }
-$done({ response: {body: JSON.stringify(objc), status: 200} });
+
+// Handle storages endpoint
+if ($request.url.includes("/storages")) {
+    objc = {
+        "status": "success",
+        "response": {
+            "storages": [
+                {
+                    "storage_id": "cloud_storage_premium",
+                    "storage_limit_in_mb": 102400,
+                    "used_storage_in_mb": 0
+                }
+            ]
+        }
+    };
+}
+
+$done({ response: { body: JSON.stringify(objc), status: 200 } });
